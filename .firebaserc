@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "ssg-10k-test",
+    "ssg": "ssg-10k-test"
+  },
+  "targets": {}
+}
