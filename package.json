@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": ".eleventy.js",
+  "source": "public/index.html",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "parcelstart": "npx parcel public/index.html",
+    "parcelbuild": "parcel build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^1.0.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
   }
 }

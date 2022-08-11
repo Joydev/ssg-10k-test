@@ -7,7 +7,7 @@ pagination:
 permalink: "/articles/{{ article.title | slug }}/"
 tags: articles
 layout: base.njk
-templateEngineOverride: md, njk
+templateEngineOverride: md, njk, html
 eleventyComputed:
   title: "{{ article.title }}"
 ---

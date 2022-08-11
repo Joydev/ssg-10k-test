@@ -1,5 +1,6 @@
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("./src/css");
+  eleventyConfig.addPassthroughCopy("./src/assets/css");
+  eleventyConfig.addPassthroughCopy("./src/assets/js");
 
   // Filter to retrieve a random blog post
   eleventyConfig.addFilter("randomPost", (arr) => {
